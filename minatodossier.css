@@ -4,11 +4,11 @@
   src: url("https://dl.dropbox.com/s/w9yvi9n2e31o3fk/dogica.ttf");
 }
 body.light #minato-dossier {
-  --bg-blend: screen;
+  --bg-blend: soft-light;
 }
 
 body.dark #minato-dossier {
-  --bg-blend: multiply;
+  --bg-blend: overlay;
 }
 
 #minato-dossier {

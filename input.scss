@@ -7,13 +7,13 @@
 
 body.light {
   #minato-dossier {
-    --bg-blend: screen;
+    --bg-blend: soft-light;
   }
 }
 
 body.dark {
   #minato-dossier {
-    --bg-blend: multiply;
+    --bg-blend: overlay;
   }
 }
 
