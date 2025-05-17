@@ -26,32 +26,8 @@ body.dark {
   --size-xxl: 28px;
   --size-title: 56px;
 
-  /*** GB VARS ***/
-  --default-filter: contrast(0.7);
-  --size-xs: 8px;
-  --size-sm: 10px;
-  --size-md: 12px;
-  --size-lg: 14px;
-  --size-xl: 16px;
-
-  --bg-primary: rgb(200, 200, 200);
-  --bg-secondary: rgb(215, 215, 215);
-  --bg-tertiary: rgb(195, 195, 195);
-  --bg-transparent: rgba(195, 195, 195, 0.95);
-  --bg-transparent-alt: rgba(200, 200, 200, 0.6);
-  --bg-quaternary: rgb(215, 215, 215);
-  --bg-overlay: rgba(255, 255, 255, 0.7);
-
-  --text-primary: rgb(147, 147, 147);
-  --text-secondary: rgb(200, 200, 200);
-  --text-on-accent: rgb(20, 20, 20);
-
-  --border-primary: rgb(195, 195, 195);
-  --border-secondary: rgb(175, 175, 175);
-
   background: var(--bg-tertiary) var(--bg-texture);
   background-blend-mode: var(--bg-blend);
-
   display: block;
   position: relative;
   overflow: hidden;
@@ -66,7 +42,6 @@ body.dark {
   color: var(--text-on-accent);
   border: 2px dotted var(--text-primary);
   
-
   &:has(input#reveal:checked) {
   max-height: 9999px;
 
